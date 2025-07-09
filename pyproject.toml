@@ -2,7 +2,7 @@
 name = "resarchpaper"
 version = "0.1.0"
 description = "CLI tool to fetch PubMed papers with non-academic authors"
-authors = ["Your Name <you@example.com>"]
+authors = ["Rituja DIkshit <dikshitrituja@gmail.com>"]
 readme = "README.md"
 packages = [
     { include = "resarchpaper" }
