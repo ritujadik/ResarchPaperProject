@@ -8,7 +8,6 @@ packages = [
     { include = "resarchpaper" }
 ]
 
-
 [tool.poetry.dependencies]
 python = "^3.8"
 biopython = "^1.81"
@@ -20,3 +19,7 @@ get-papers-list = "resarchpaper.cli:get_papers_list"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[[tool.poetry.source]]
+name = "testpypi"
+url = "https://test.pypi.org/legacy/"
